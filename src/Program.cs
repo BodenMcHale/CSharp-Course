@@ -25,6 +25,17 @@
             // Clear the initial console
             Console.Clear();
 
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            // Display the title
+            Console.WriteLine(@"
+  _____  _  _      _____                          
+ / ____|| || |_   / ____|                         
+| |   |_  __  _| | |     ___  _   _ _ __ ___  ___ 
+| |    _| || |_  | |    / _ \| | | | '__/ __|/ _ \
+| |___|_  __  _| | |___| (_) | |_| | |  \__ \  __/
+ \_____||_||_|    \_____\___/ \__,_|_|  |___/\___|
+");
+
             while(true)
             {
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
