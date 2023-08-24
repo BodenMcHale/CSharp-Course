@@ -1,4 +1,4 @@
-# Learning-CSharp
+# CSharp Course
 
 An interactive console application based off of the [C# Tutorial - Full Course for Beginners](https://youtu.be/GhQdlIFylQ8?si=P3Es8gfgfm93tF55) from [FreeCodeCamp](https://www.freecodecamp.org/).
 
