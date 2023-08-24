@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj",
+      "projectUniqueName": "D:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj",
       "projectName": "Learning-CSharp",
-      "projectPath": "d:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj",
+      "projectPath": "D:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj",
       "packagesPath": "C:\\Users\\boden\\.nuget\\packages\\",
-      "outputPath": "d:\\CSharp-Development\\Learning-CSharp\\obj\\",
+      "outputPath": "D:\\CSharp-Development\\Learning-CSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\boden\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
       }
     }
   }

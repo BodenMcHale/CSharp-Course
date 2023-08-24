@@ -11,7 +11,6 @@
 
             while(true)
             {
-                Console.Clear();
                 Console.WriteLine("Which lesson would you like to see?");
                 Console.WriteLine(lessons.ToString());
 
@@ -36,6 +35,7 @@
                         Console.WriteLine("Unknown choice, please try another.");
                         break;
                 }
+
             }
         }
     }
