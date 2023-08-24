@@ -19,26 +19,32 @@
                 Console.WriteLine("Which lesson would you like to see?");
                 Console.WriteLine(string.Join(", ", lessons));
 
+                // Retrieve user input
                 string? input = Console.ReadLine();
 
-                switch (input.ToUpper())
+                if (input is not null)
                 {
-                    case "SHAPES":
-                        Console.WriteLine("Shapes!");
-                        shapes.Triangle();
-                        shapes.Circle();
-                        shapes.Square();
-                        break;
-                    case "VARIABLES":
-                        Console.WriteLine("Variables!");
-                        variables.Story();
-                        break;
-                    case null:
-                        Console.WriteLine("Unknown choice \"Null\" , please try another.");
-                        break;
-                    default:
-                        Console.WriteLine("Unknown choice \"" + input + "\", please try another.");
-                        break;
+                    switch (input.ToUpper())
+                    {
+                        case "SHAPES":
+                            Console.WriteLine("Chapter 1: Shapes");
+                            shapes.Triangle();
+                            shapes.Circle();
+                            shapes.Square();
+                            break;
+                        case "VARIABLES":
+                            Console.WriteLine("Chapter 2: Shapes");
+                            variables.Story();
+                            break;
+                        default:
+                            Console.WriteLine("Unknown choice \"" + input + "\", please try another.");
+                            break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Unknown choice \"" + input + "\", please try another.");
+                    break;
                 }
             }
         }
