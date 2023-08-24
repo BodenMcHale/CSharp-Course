@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj",
-      "projectName": "Learning-CSharp",
-      "projectPath": "D:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj",
+      "projectUniqueName": "D:\\CSharp-Development\\CSharp-Course\\CSharp_Course.csproj",
+      "projectName": "CSharp_Course",
+      "projectPath": "D:\\CSharp-Development\\CSharp-Course\\CSharp_Course.csproj",
       "packagesPath": "C:\\Users\\boden\\.nuget\\packages\\",
-      "outputPath": "D:\\CSharp-Development\\Learning-CSharp\\obj\\",
+      "outputPath": "D:\\CSharp-Development\\CSharp-Course\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\boden\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,4 +1,4 @@
-namespace Learning_CSharp.src
+namespace CSharp_Course.src
 {
     public class Variables
     {

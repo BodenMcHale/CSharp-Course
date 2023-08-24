@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Learning_CSharp.src
+namespace CSharp_Course.src
 {
     public class Shapes
     {

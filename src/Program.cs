@@ -1,4 +1,6 @@
-﻿namespace Learning_CSharp.src
+﻿using System;
+
+namespace CSharp_Course.src
 {
     internal class Program
     {
