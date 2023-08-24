@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj": {}
+    "D:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj": {}
   },
   "projects": {
-    "d:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj": {
+    "D:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj",
+        "projectUniqueName": "D:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj",
         "projectName": "Learning-CSharp",
-        "projectPath": "d:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj",
+        "projectPath": "D:\\CSharp-Development\\Learning-CSharp\\Learning-CSharp.csproj",
         "packagesPath": "C:\\Users\\boden\\.nuget\\packages\\",
-        "outputPath": "d:\\CSharp-Development\\Learning-CSharp\\obj\\",
+        "outputPath": "D:\\CSharp-Development\\Learning-CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\boden\\AppData\\Roaming\\NuGet\\NuGet.Config",
