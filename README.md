@@ -1,12 +1,14 @@
 # Learning-CSharp
 
-An interactive console application based off of the [C# beginners course](https://youtu.be/GhQdlIFylQ8?si=P3Es8gfgfm93tF55) from FreeCodeCamp.
+An interactive console application based off of the [C# Tutorial - Full Course for Beginners](https://youtu.be/GhQdlIFylQ8?si=P3Es8gfgfm93tF55) from [FreeCodeCamp](https://www.freecodecamp.org/).
 
-![Screenshot of the main menu](images/Main-Menu.png "Main Menu")
+![Screenshot of the Title](img/Title.png "Title")
+
+![Screenshot of the main menu](img/Main-Menu.png "Main Menu")
 
 ## Credits
 
-Programmer: [Boden McHale](bodenmchale.github.io)
+Programmer: [Boden McHale](https://bodenmchale.github.io/)
 
 Course Creator: [Mike Dane](https://www.giraffeacademy.com)
 
