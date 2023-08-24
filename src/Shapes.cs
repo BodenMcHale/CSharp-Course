@@ -1,19 +1,10 @@
 using System;
 
-namespace Drawing_Shapes
+namespace Learning_CSharp
 {
-    internal class Program
+    public class Shapes
     {
-        static void Main(string[] args)
-        {
-            Triangle();
-            Circle();
-            Square();
-
-            Console.ReadLine();
-        }
-
-        static void Triangle()
+        public void Triangle()
         {
             Console.WriteLine("   /|");
             Console.WriteLine("  / |");
@@ -21,14 +12,14 @@ namespace Drawing_Shapes
             Console.WriteLine("/___|");
         }
 
-        static void Circle()
+        public void Circle()
         {
             Console.WriteLine(" __");
             Console.WriteLine("/  \\");
             Console.WriteLine("\\__/");
         }
 
-        static void Square()
+        public void Square()
         {
             Console.WriteLine("_____");
             Console.WriteLine("|   |");
