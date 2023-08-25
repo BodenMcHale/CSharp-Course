@@ -1,5 +1,3 @@
-using System;
-
 namespace CSharp_Course.src
 {
     public class Shapes

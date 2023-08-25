@@ -6,11 +6,46 @@ An interactive console application based off of the [C# Tutorial - Full Course f
 
 ![Screenshot of the main menu](img/Main-Menu.png "Main Menu")
 
+![Screenshot of the chapters](img/Chapters.png "Chapters")
+
 ## Credits
 
 Programmer: [Boden McHale](https://bodenmchale.github.io/)
 
 Course Creator: [Mike Dane](https://www.giraffeacademy.com)
+
+Contributors: None :(
+
+## Contributing
+
+Thank you for considering contributing to [Your Project Name]! Contributions are **greatly appreciated** and can come in many forms. Whether it's submitting bug reports, suggesting new features, or making code contributions, every bit helps to improve the project.
+
+Before you start contributing, please take a moment to read the following guidelines:
+
+### How Can You Contribute?
+
+- **Report Bugs**: If you encounter any bugs or issues while using the project, please [submit a bug report](https://github.com/BodenMcHale/CSharp-Course/issues/new?template=bug_report.md).
+
+- **Suggest Enhancements**: Have an idea to improve the project? [Create an enhancement suggestion](https://github.com/BodenMcHale/CSharp-Course/issues/new?template=feature_request.md) outlining your proposal.
+
+- **Submit Pull Requests**: If you're comfortable with coding, you can contribute directly by submitting pull requests.
+
+### Getting Started
+
+1. Fork the repository and clone it locally.
+2. Create a new branch for your contribution: `git checkout -b feature/your-feature`.
+3. Make your changes and test thoroughly.
+4. Commit your changes: `git commit -am 'Add new feature'`.
+5. Push to the branch: `git push origin feature/your-feature`.
+6. Create a pull request, following the provided template.
+
+### Feedback
+
+Feedback is valuable! If you have any suggestions or questions about contributing, feel free to [open an issue](https://github.com/BodenMcHale/CSharp-Course/issues/new) to discuss it.
+
+By contributing to this project, you agree to its [license](LICENSE). Your contributions will be acknowledged in the repository's list of contributors.
+
+Thank you for helping to make this project better!
 
 ## License
 

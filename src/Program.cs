@@ -7,6 +7,9 @@ namespace CSharp_Course.src
     {
         static void Main(string[] args)
         {
+            // Helper Utilities 
+            Utilities utilities = new Utilities();
+
             // Declare each chapter class
             Shapes shapes = new Shapes();
             Variables variables = new Variables();
@@ -32,37 +35,41 @@ namespace CSharp_Course.src
             // Clear the initial console
             Console.Clear();
 
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
-            // Display the title
-            Console.WriteLine(@"
-  _____  _  _      _____                          
- / ____|| || |_   / ____|                         
-| |   |_  __  _| | |     ___  _   _ _ __ ___  ___ 
-| |    _| || |_  | |    / _ \| | | | '__/ __|/ _ \
-| |___|_  __  _| | |___| (_) | |_| | |  \__ \  __/
- \_____||_||_|    \_____\___/ \__,_|_|  |___/\___|
+            void DisplayTitle()
+            {
+                utilities.TitleColor();
+                Console.WriteLine(@"
+  _____  _  _       _____                          
+ / ____|| || |_    / ____|                         
+| |   |_  __  _|  | |     ___  _   _ _ __ ___  ___ 
+| |    _| || |_   | |    / _ \| | | | '__/ __|/ _ \
+| |___|_  __  _|  | |___| (_) | |_| | |  \__ \  __/
+ \_____||_||_|     \_____\___/ \__,_|_|  |___/\___|
 ");
+                utilities.ResetColor();
+            }
 
             void DefaultPrompt()
             {
-                Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine("\nWhich lesson would you like to view?");
-                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                utilities.PromptColor();
+                Console.WriteLine("\nWhich chapter would you like to view?");
+                utilities.TipColor();
                 Console.WriteLine("Tip: Type \"Help\" for usage instructions.");
                 Console.WriteLine("Tip: Type \"Chapters\" to view the chapter list.\n");
-                Console.ForegroundColor = ConsoleColor.Gray;
+                utilities.ResetColor();
             }
 
             void ViewChapterList()
             {
-                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                utilities.PromptColor();
                 Console.WriteLine("----- CHAPTERS -----");
                 Console.WriteLine(string.Join("\n", chapterList) + "\n");
+                utilities.ResetColor();
             }
 
             void ViewHelp()
             {
-                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                utilities.TipColor();
                 Console.WriteLine("----- HELP -----\n");
                 Console.WriteLine("----- CHAPTERS -----");
                 Console.WriteLine("Type chapter <num>, the number of the chapter, or the title of the chapter.");
@@ -70,26 +77,29 @@ namespace CSharp_Course.src
                 Console.WriteLine("\n----- CREDITS -----");
                 Console.WriteLine("Type \"credits\" or \"authors\" to view the authors of this program.");
                 Console.WriteLine("\n----- END OF HELP -----");
-                Console.ForegroundColor = ConsoleColor.Gray;
+                utilities.ResetColor();
             }
 
             void ViewCredits()
             {
-                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                utilities.TipColor();
                 Console.WriteLine("----- CREDITS -----\n");
                 Console.WriteLine("Programmer: Boden McHale | Website: bodenmchale.github.io");
                 Console.WriteLine("Course Creator: Mike Dane | Website: www.giraffeacademy.com");
                 Console.WriteLine("\n----- END OF CREDITS -----");
-                Console.ForegroundColor = ConsoleColor.Gray;
+                utilities.ResetColor();
             }
 
             void InvalidInput()
             {
                 Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Red;
+                utilities.ErrorColor();
                 Console.WriteLine("Unknown input \"" + input + "\", please type \"Help\" for usage information.");
-                Console.ForegroundColor = ConsoleColor.Gray;
+                utilities.ResetColor();
             }
+
+            // Display the title screen before first loop
+            DisplayTitle();
 
             // Core loop
             while(true)
