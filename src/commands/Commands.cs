@@ -37,7 +37,7 @@ namespace CSharp_Course.src.commands
         {
             utilities.PromptColor();
             Console.WriteLine("----- CHAPTERS -----");
-            Console.WriteLine(string.Join("\n", Program.chapterList) + "\n");
+            Console.WriteLine(string.Join("\n", Program.chapterList));
             utilities.ResetColor();
         }
 
